@@ -28,7 +28,7 @@ fnt.getStats("MonsterMannen", "pc", (err, result) => {
 
 `result` has the following fields
 
-```javascript
+```
 result.accountName
 result.platform
 result.skinUrl
