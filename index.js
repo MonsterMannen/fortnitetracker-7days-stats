@@ -26,7 +26,7 @@ exports.getStats = (username, platform, callback) => {
 
         // random error
         if(error){
-            callback(new Error("Some error occured :("), null);
+            callback(new Error("Some error occurred :("), null); //grammar 
             return;
         }
 
@@ -44,7 +44,8 @@ exports.getStats = (username, platform, callback) => {
 
         // obtain each value and put in dict
         var ret = {
-            accountName: jsonInfo.nickname,
+            accountName: jsonInfo.nickname, // why not "nickname" :/
+            platform: jsonInfo.platform,
             skinUrl: jsonInfo.emblemUrl,
             score: jsonStats[0].value,
             kills: jsonStats[1].value,
@@ -54,7 +55,6 @@ exports.getStats = (username, platform, callback) => {
             top_6_12_25: jsonStats[5].value,
             kd: jsonStats[6].displayValue,
             wr: jsonStats[7].value,
-            minutesPlayed: jsonStats[8].value
         }
 
         // callback function with result
