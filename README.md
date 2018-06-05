@@ -30,6 +30,7 @@ fnt.getStats("MonsterMannen", "pc", (err, result) => {
 
 ```javascript
 result.accountName
+result.platform
 result.skinUrl
 result.score
 result.kills
@@ -47,7 +48,8 @@ result.minutesPlayed
 
 ~~Use these methods to get the last 7 days stats only for a specific queue type.~~  
 
-// temp removed  
+Removed  
+Open as issue if you want them back
 
 `getStatsSolo()`  
 `getStatsDuo()`  
