@@ -4,7 +4,8 @@ fnt.getStats("DNL._.", "pc", (err, result) => {
     if(err){
         console.log(err.message);
     }else{
-        console.log("ALL:\nname: " + result.accountName);
+        console.log("name: " + result.accountName);
+        console.log("platform: " + result.platform);
         console.log("skin: " + result.skinUrl);
         console.log("score: " + result.score);
         console.log("kills: " + result.kills);
