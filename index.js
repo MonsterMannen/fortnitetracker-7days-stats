@@ -42,7 +42,7 @@ exports.getStats = (username, platform, callback) => {
         var jsonStats = JSON.parse(last7);
         var jsonInfo = JSON.parse(accountInfo);
         
-        var platforms = { 1: "xbox", 2: "ps4", 3: "pc" };
+        var platforms = { 1: "xbox", 2: "psn", 3: "pc" };
 
         // obtain each value and put in dict
         var ret = {
