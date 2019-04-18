@@ -1,8 +1,8 @@
+# fortnitetracker-7days-stats
+
 ![npm](https://img.shields.io/npm/dt/fortnitetracker-7days-stats.svg?style=flat)
 ![npm](https://img.shields.io/npm/v/fortnitetracker-7days-stats.svg)
 ![David](https://img.shields.io/david/monstermannen/fortnitetracker-7days-stats.svg)
-
-# fortnitetracker-7days-stats
 
 Node module for obtaining the last 7 days stats from fortnitetracker.com  
 
