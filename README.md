@@ -15,7 +15,7 @@ npm install fortnitetracker-7days-stats
 
 ## Example usage
 
-Available platforms: `pc`, `psn`, `xbl`
+Platforms: `pc`, `psn`, `xbl`
 
 ```javascript
 const fnt = require('fortnitetracker-7days-stats');
@@ -46,3 +46,10 @@ result.kd
 result.wr
 result.minutesPlayed
 ```
+
+### Stats for specific queue type
+
+All queues: `getStats(user, platform, callback)`  
+Solo: `getStatsSolo(user, platform, callback)`  
+Duo: `getStatsDuo(user, platform, callback)`  
+Squad: `getStatsSquad(user, platform, callback)`  
