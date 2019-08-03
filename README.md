@@ -6,6 +6,10 @@
 
 Node module for obtaining the last 7 days stats from fortnitetracker.com  
 
+###### Note:
+
+ Fortnitetracker recently did some changes to their site. I've updated this module to use their V2 stats. Should work for now. 
+
 
 ## Installation
 
@@ -46,6 +50,8 @@ result.kd
 result.wr
 result.minutesPlayed
 ```
+<!--
+Removed again
 
 ### Stats for specific queue type
 
@@ -53,3 +59,5 @@ All queues: `getStats(user, platform, callback)`
 Solo: `getStatsSolo(user, platform, callback)`  
 Duo: `getStatsDuo(user, platform, callback)`  
 Squad: `getStatsSquad(user, platform, callback)`  
+
+-->

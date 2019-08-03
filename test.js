@@ -22,6 +22,7 @@ fnt.getStats(player, "pc", (err, result) => {
     }
 });
 
+/*
 fnt.getStatsSolo(player, "pc", (err, result) => {
     if(err){
         console.log(err.message);
@@ -81,3 +82,4 @@ fnt.getStatsSquad(player, "pc", (err, result) => {
         console.log("playtime: " + result.minutesPlayed);
     }
 });
+*/
