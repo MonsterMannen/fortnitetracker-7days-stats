@@ -33,8 +33,6 @@ exports.getStats = (username, platform, callback) => {
         // get text for last 7 days stats
         var last7 = body.substring(body.indexOf("statsLast7") + 13);
         last7 = last7.substring(0, last7.indexOf('"matches":') - 5);
-        console.log(last7);
-        console.log("-------------");
 
         // get text for account info
         var accountInfo = body.substring(body.indexOf('"playerInfo":') + 14);
