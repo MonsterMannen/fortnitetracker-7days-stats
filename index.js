@@ -7,8 +7,8 @@ exports.getStats = (username, platform, callback) => {
 
     request(url, (error, response, body) => {
         // check platform
-        if(platform != "pc" && platform != "psn" && platform != "xbl"){
-            callback(new Error("Platform must be one of: 'pc', 'psn', 'xbl'"), null);
+        if(!["all", "kbm"].includes(platform.toLowerCase())){
+            callback(new Error("Platform must be one of: 'all', 'kbm'"), null);
             return;
         }
 
